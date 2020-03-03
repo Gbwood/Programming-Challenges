@@ -2,7 +2,7 @@
 // A magic index in an array is an index such that an index into that array is the same as the value.Sorted Array, distinct, increasing
 // Find magic index
 
-Public int FindMagicIndex(int[] array) {
+public int FindMagicIndex(int[] array) {
 	int index;
 	int lo = 0;
 	int high = array.Length;
