@@ -19,15 +19,15 @@
 
 public int findH(int a[])
 {
-	Int h;
-	Int n = a.Length;
-	Int index = 0;
+	int h;
+	int n = a.Length;
+	int index = 0;
 
 	a = array.sort(a);
 
 	while(n - index >= 0 && a[index] <= n - index) {
 		H = a[index];
-		Index++;
+		index++;
 	}
 
 	return h;
