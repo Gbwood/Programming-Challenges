@@ -1,5 +1,5 @@
 
-// A magic index in an array is an index such that an index into that array is the same as the value.Sorted Array, distinct, increasing
+// A magic index in an array is an index such that an index into that array is the same as the value. Sorted Array, distinct, increasing
 // Find magic index
 
 public int FindMagicIndex(int[] array) {

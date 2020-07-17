@@ -21,13 +21,13 @@ public bool isBalanced(Node head) {
 
 public bool Mirrored (Node leftHead, Node rightHead) {
 	
-	#check left and right
+	//check left and right
 	if (leftHead.left != null) {
 		if (rightHead.right == null) return false;
 	}
 	else if (rightHead.right != null) return false;
 	
-	#check right and left
+	//check right and left
 	if (leftHead.right != null) {
 		if (rightHead.left == null) return false;
 	}

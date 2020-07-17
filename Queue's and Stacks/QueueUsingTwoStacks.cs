@@ -2,12 +2,12 @@
 
 // #Emplement a Queue using only two stacks
 
-Public class Queue {
+public class Queue {
 	Stack EnqueueStack;
 	Stack DequeueStack;
 	
 	
-	Public Queue() {
+	public Queue() {
 		EnqueueStack = new Stack();
 		DequeueStack = new Stack();
 	}
@@ -27,7 +27,7 @@ Public class Queue {
 		return DequeueStack.Pop();
 	}
 
-	#axilary
+	//axilary
 	public void ShiftStack() {
 		if (Enqueue.Peek == null) {
 			while(DequeueStack.Peek() != null) {

@@ -6,8 +6,8 @@
 
 public Node FindCommon(Node A, Node B)
 {
-	Int depthA = findDepth(A);
-	Int depthB = findDepth(B);
+	int depthA = findDepth(A);
+	int depthB = findDepth(B);
 
 	if(depthA > depthB) {
 		while (depthA > depthB)
