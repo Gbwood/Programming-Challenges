@@ -1,0 +1,14 @@
+ static SinglyLinkedListNode insertNodeAtTail(SinglyLinkedListNode head, int data) {
+        
+        if (head != null) {
+            var nodeIterator = head;
+            while (nodeIterator.next != null) {
+                nodeIterator = nodeIterator.next;
+            }
+            nodeIterator.next = new SinglyLinkedListNode(data);
+        }
+        else {
+            head = new SinglyLinkedListNode(data);
+        }
+        return head;
+    }
